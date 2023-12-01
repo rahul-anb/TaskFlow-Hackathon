@@ -1,0 +1,49 @@
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.level-0 td {
+    padding-left: 0;
+}
+
+.level-1 td {
+    padding-left: 20px;
+}
+
+.level-2 td {
+    padding-left: 40px;
+}
+
+/* Add this to your TaskList.css or any appropriate CSS file */
+
+.centered-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Add this to your TaskList.css or any appropriate CSS file */
+
+.datepicker-level-0,
+.datepicker-level-1,
+.datepicker-level-2 {
+    /* Add any additional styles for datepicker at different levels if needed */
+}
+
+.text-input-level-0,
+.text-input-level-1,
+.text-input-level-2 {
+    /* Add any additional styles for text input at different levels if needed */
+}
+
+
+/* Add more levels as needed */

@@ -1,0 +1,92 @@
+/* src/App.css */
+body {
+  background-color: #816fdbe9; /* Dark mode background color */
+  color: 'black'; /* Text color */
+}
+
+.app-container {
+  height: 100vh;
+  padding: 20px;
+}
+
+.canvas-paper {
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(78, 46, 182, 0.748); /* Transparent white for glassmorphism effect */
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+}
+
+.chat-paper {
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(43, 4, 87, 0.626); /* Transparent white for glassmorphism effect */
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+}
+
+.react-flow__node-selectorNode {
+  font-size: 12px;
+  color: 'red';
+  background: #22223b;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+
+.custom-node {
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.node-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.task-name {
+  font-weight: bold;
+}
+
+.deadline {
+  font-size: 12px;
+}
+
+.node-content {
+  margin-top: 10px;
+}
+
+.options-container {
+  margin-top: 5px;
+}
+
+.option {
+  margin-bottom: 5px;
+
+  input {
+    margin-right: 5px;
+  }
+}
+
+
+
+
+
